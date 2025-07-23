@@ -130,8 +130,8 @@ p {
 /*** Container Default CSS ***/
 .container {
     width: 100%;
-    padding-left: 12px;
-    padding-right: 12px;
+    padding-left: 16px;
+    padding-right: 16px;
     margin-left: auto;
     margin-right: auto;
 }
@@ -274,3 +274,63 @@ p {
 
 /* [ Header Style ] */
 /*================================================== */
+.navbar {
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    background-color: var(--white);
+    padding: 20px 0;
+}
+
+.navbar .container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.primary-menu {
+    margin-left: auto;
+}
+
+.navbar-brand img {
+    width: 95%;
+    transition: all .3s ease;
+}
+
+.navbar-brand:hover img {
+    opacity: .7;
+}
+
+.navbar-nav {
+    display: flex;
+}
+
+.navbar-nav .nav-link {
+    height: 48px;
+    display: flex;
+    align-items: center;
+    padding: 0 24px;
+    color: var(--gray-400);
+    font-size: 1rem;
+}
+
+.navbar-nav .nav-link.active {
+    color: var(--dark-4);
+    font-weight: 700;
+}
+
+.navbar-nav .nav-link:hover {
+    color: var(--primary-color);
+}
+
+.navbar .cart {
+    font-size: 1rem;
+    margin-left: 24px;
+}
+
+.navbar .cart i {
+    font-size: 1.625rem;
+    vertical-align: bottom;
+    margin-right: 2px;
+}

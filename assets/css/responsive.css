@@ -244,3 +244,22 @@
         max-width: 1320px;
     }
 }
+
+@media screen and (max-width: 991px) {}
+
+@media screen and (max-width:767px) {
+
+    /* [ Header Style ] */
+    /*================================================== */
+    .navbar {
+        padding: 16px 0;
+    }
+
+    .primary-menu {
+        display: none;
+    }
+
+    .navbar-brand img {
+        width: 70%;
+    }
+}
