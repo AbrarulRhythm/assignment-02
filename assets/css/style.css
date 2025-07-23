@@ -18,6 +18,7 @@ File Description: Main css file of the template
     + Buttons
     + Section Title
     + Header Style
+    + Hero Section Style
 ------------------------------------------------------------------*/
 
 /* [ General ] */
@@ -38,7 +39,7 @@ File Description: Main css file of the template
     --gray-500: #6B7280;
     --gray-400: #8987A1;
     --white: #FFF;
-    --body-bg: var(var(--white));
+    --body-bg: #F5F8FF;
 }
 
 /*** Common CSS ***/
@@ -71,6 +72,7 @@ h3,
 h4,
 h5,
 h6 {
+    font-family: var(--font-NotoSerif);
     line-height: 1.2;
     color: var(--dark-1);
 }
@@ -130,8 +132,8 @@ p {
 /*** Container Default CSS ***/
 .container {
     width: 100%;
-    padding-left: 16px;
-    padding-right: 16px;
+    padding-left: 12px;
+    padding-right: 12px;
     margin-left: auto;
     margin-right: auto;
 }
@@ -279,8 +281,9 @@ p {
     top: 0;
     left: 0;
     right: 0;
-    background-color: var(--white);
+    background-color: var(--body-bg);
     padding: 20px 0;
+    z-index: 99;
 }
 
 .navbar .container {
@@ -333,4 +336,32 @@ p {
     font-size: 1.625rem;
     vertical-align: bottom;
     margin-right: 2px;
+}
+
+/* [ Hero Section Style ] */
+/*================================================== */
+.hero-content {
+    padding-top: 270px;
+}
+
+.hero-content>.row {
+    align-items: end;
+}
+
+.hero-content .hero-head {
+    line-height: 1.3;
+    font-size: 4.063rem;
+    text-transform: uppercase;
+    font-weight: 700;
+    margin-bottom: 16px;
+}
+
+.hero-content .hero-head span {
+    color: var(--primary-color);
+}
+
+.hero-content .hero-image img {
+    display: block;
+    margin-left: auto;
+    width: 100%;
 }
