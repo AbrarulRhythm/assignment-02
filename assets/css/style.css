@@ -20,6 +20,7 @@ File Description: Main css file of the template
     + Header Style
     + Hero Section Style
     + Our Plants Section Style
+    + Plants Lover Section Style
 ------------------------------------------------------------------*/
 
 /* [ General ] */
@@ -432,4 +433,54 @@ p {
 .flower-card-wrap .content button {
     width: 100%;
     margin-top: 16px;
+    text-transform: uppercase;
+}
+
+/* [ Plants Lover Section Style ] */
+/*================================================== */
+.plants-lover {
+    margin-top: 88px;
+}
+
+.plants-lover .row {
+    align-items: center;
+}
+
+.plants-lover .poster-side {
+    padding-right: 60px;
+}
+
+.plant-lover-image {
+    position: relative;
+}
+
+.plant-lover-image .poster-img img {
+    width: 100%;
+}
+
+.plant-lover-image .badge {
+    position: absolute;
+    top: -127px;
+    right: -90px;
+    width: 286px;
+}
+
+.plant-lover-content h2 {
+    font-size: 3.75rem;
+    font-weight: 700;
+    margin-bottom: 20px;
+}
+
+.plant-lover-content ul {
+    list-style-position: outside;
+    padding-left: 18px;
+}
+
+.plant-lover-content ul li {
+    list-style: unset;
+    line-height: 1.6;
+}
+
+.plant-lover-content ul li:not(:last-child) {
+    margin-bottom: 20px;
 }
