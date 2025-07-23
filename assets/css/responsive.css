@@ -246,6 +246,25 @@
 }
 
 @media screen and (max-width: 991px) {
+    .section-pt {
+        padding-top: 68px;
+    }
+
+    .section-ptb {
+        padding-top: 68px;
+        padding-bottom: 44px;
+    }
+
+    /* [ Section Title ] */
+    /*================================================== */
+    .section-title h2 {
+        font-size: 2.55rem;
+        margin-bottom: 12px;
+    }
+
+    .section-title p {
+        max-width: 570px;
+    }
 
     /* [ Hero Section Style ] */
     /*================================================== */
@@ -278,11 +297,40 @@
 }
 
 @media screen and (max-width:767px) {
+    .section-pt {
+        padding-top: 64px;
+    }
+
+    .section-ptb {
+        padding-top: 64px;
+        padding-bottom: 40px;
+    }
+
+    /* [ Section Title ] */
+    /*================================================== */
+    .section-title {
+        margin-bottom: 34px;
+    }
+
+    .section-title h2 {
+        font-size: 1.75rem;
+        margin-bottom: 8px;
+    }
+
+    .section-title p {
+        font-size: 0.875rem;
+    }
 
     /*** Container Default CSS ***/
     .container {
         padding-left: 16px;
         padding-right: 16px;
+    }
+
+    /* [ Buttons ] */
+    /*================================================== */
+    .button {
+        padding: 0.75rem 2.125rem;
     }
 
     /* [ Header Style ] */
@@ -316,5 +364,16 @@
 
     .hero-image {
         width: calc(100vw - 4px);
+    }
+
+    /* [ Our Plants Section Style ] */
+    /*================================================== */
+    .plants .col-6 {
+        margin-bottom: 28px;
+    }
+
+    .flower-card-wrap .content h3,
+    .flower-card-wrap .content h4 {
+        font-size: 1rem;
     }
 }

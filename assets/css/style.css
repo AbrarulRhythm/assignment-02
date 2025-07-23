@@ -19,6 +19,7 @@ File Description: Main css file of the template
     + Section Title
     + Header Style
     + Hero Section Style
+    + Our Plants Section Style
 ------------------------------------------------------------------*/
 
 /* [ General ] */
@@ -108,6 +109,15 @@ ul li {
 
 p {
     line-height: 1.6;
+}
+
+.section-pt {
+    padding-top: 120px;
+}
+
+.section-ptb {
+    padding-top: 120px;
+    padding-bottom: 96px;
 }
 
 /* Selection */
@@ -262,6 +272,7 @@ p {
     padding: 0.875rem 2.75rem;
     color: var(--white);
     background-color: var(--primary-color);
+    cursor: pointer;
     -webkit-transition: all .4s ease;
     transition: all .4s ease;
 }
@@ -273,6 +284,20 @@ p {
 
 /* [ Section Title ] */
 /*================================================== */
+.section-title {
+    text-align: center;
+    margin-bottom: 48px;
+}
+
+.section-title h2 {
+    font-size: 3.125rem;
+    margin-bottom: 16px;
+}
+
+.section-title p {
+    max-width: 734px;
+    margin: auto;
+}
 
 /* [ Header Style ] */
 /*================================================== */
@@ -364,4 +389,47 @@ p {
     display: block;
     margin-left: auto;
     width: 100%;
+}
+
+/* [ Our Plants Section Style ] */
+/*================================================== */
+.plants .col-6 {
+    margin-bottom: 30px;
+}
+
+.flower-card-wrap .image {
+    margin-bottom: 16px;
+    overflow: hidden;
+}
+
+.flower-card-wrap .image img {
+    display: block;
+    width: 100%;
+    -webkit-transition: all .3s ease;
+    transition: all .3s ease;
+}
+
+.flower-card-wrap:hover .image img {
+    -webkit-transform: scale(1.1);
+    transform: scale(1.1);
+}
+
+.flower-card-wrap .content {
+    text-align: center;
+}
+
+.flower-card-wrap .content h3 {
+    font-size: 1.375rem;
+    margin-bottom: 8px;
+    font-weight: 500;
+}
+
+.flower-card-wrap .content h4 {
+    font-size: 1.375rem;
+    font-weight: 700;
+}
+
+.flower-card-wrap .content button {
+    width: 100%;
+    margin-top: 16px;
 }
