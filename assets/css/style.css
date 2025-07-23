@@ -17,6 +17,7 @@ File Description: Main css file of the template
             - Color
     + Buttons
     + Section Title
+    + Header Style
 ------------------------------------------------------------------*/
 
 /* [ General ] */
@@ -32,8 +33,10 @@ File Description: Main css file of the template
     --primary-color: #E95A08;
     --dark-1: #000000;
     --dark-2: #111111;
-    --dark-3: rgba(0, 0, 0, 50%);
+    --dark-3-light: rgba(0, 0, 0, 50%);
+    --dark-4: #252432;
     --gray-500: #6B7280;
+    --gray-400: #8987A1;
     --white: #FFF;
     --body-bg: var(var(--white));
 }
@@ -57,7 +60,7 @@ body {
     position: relative;
     height: 100%;
     width: 100%;
-    color: var(--dark-3);
+    color: var(--dark-3-light);
     background: var(--body-bg);
     overflow-x: hidden;
 }
@@ -225,8 +228,20 @@ p {
     color: var(--dark-2);
 }
 
+.dark-3-light {
+    color: var(--dark-3-light);
+}
+
+.dark-4 {
+    color: var(--dark-4);
+}
+
 .gray-500 {
     color: var(--gray-500);
+}
+
+.gray-400 {
+    color: var(--gray-400);
 }
 
 .white-color {
@@ -255,4 +270,7 @@ p {
 }
 
 /* [ Section Title ] */
+/*================================================== */
+
+/* [ Header Style ] */
 /*================================================== */
