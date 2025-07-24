@@ -255,6 +255,10 @@
         padding-bottom: 44px;
     }
 
+    .section-mt {
+        margin-top: 68px;
+    }
+
     /* [ Section Title ] */
     /*================================================== */
     .section-title h2 {
@@ -339,6 +343,16 @@
     .right-side .deal-content h4 {
         font-size: 1.5rem;
     }
+
+    /* [ Join Section Style ] */
+    /*================================================== */
+    .join-us-content {
+        padding: 98px 0;
+    }
+
+    .join-us-head {
+        font-size: 2.375rem;
+    }
 }
 
 @media screen and (max-width:767px) {
@@ -349,6 +363,10 @@
     .section-ptb {
         padding-top: 64px;
         padding-bottom: 40px;
+    }
+
+    .section-mt {
+        margin-top: 64px;
     }
 
     /* [ Section Title ] */
@@ -480,5 +498,23 @@
 
     .right-side .deal-content h4 {
         font-size: 1rem;
+    }
+
+    /* [ Join Section Style ] */
+    /*================================================== */
+    .join-us-content {
+        padding: 110px 0 64px 0;
+    }
+
+    .join-us-head {
+        font-size: 1.25rem;
+    }
+
+    .email-form input[type="email"] {
+        width: 100%;
+    }
+
+    .email-form input[type="submit"] {
+        padding: 0.75rem 1.5rem;
     }
 }

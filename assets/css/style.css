@@ -22,6 +22,7 @@ File Description: Main css file of the template
     + Our Plants Section Style
     + Plants Lover Section Style
     + Latest Deal Section Style
+    + Join Section Style
 ------------------------------------------------------------------*/
 
 /* [ General ] */
@@ -120,6 +121,10 @@ p {
 .section-ptb {
     padding-top: 120px;
     padding-bottom: 96px;
+}
+
+.section-mt {
+    margin-top: 120px;
 }
 
 /* Selection */
@@ -575,4 +580,47 @@ p {
 
 .deal-content h4 a:hover {
     color: var(--primary-color);
+}
+
+/* [ Join Section Style ] */
+/*================================================== */
+.join-us {
+    background-image: url('../images/news-letter-bg.png');
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.join-us-content {
+    padding: 198px 0;
+    text-align: center;
+}
+
+.join-us-head {
+    font-size: 3.125rem;
+    font-weight: 700;
+    color: var(--white);
+    margin-bottom: 24px;
+}
+
+.join-us .email-form form {
+    display: flex;
+    justify-content: center;
+}
+
+.email-form input[type="email"] {
+    width: 56%;
+    height: 50px;
+    border: 1px solid transparent;
+    outline: none;
+    padding: 20px;
+    font-family: var(--font-Inter);
+    color: var(--dark-3);
+}
+
+.email-form input[type="email"]:focus {
+    border-color: var(--primary-color);
+}
+
+.email-form input[type="submit"] {
+    height: 50px;
 }
