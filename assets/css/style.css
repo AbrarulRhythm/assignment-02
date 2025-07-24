@@ -23,6 +23,7 @@ File Description: Main css file of the template
     + Plants Lover Section Style
     + Latest Deal Section Style
     + Join Section Style
+    + Footer Style
 ------------------------------------------------------------------*/
 
 /* [ General ] */
@@ -623,4 +624,47 @@ p {
 
 .email-form input[type="submit"] {
     height: 50px;
+}
+
+/* [ Footer Style ] */
+/*================================================== */
+.footer-widget-wrapper {
+    display: grid;
+    grid-template-columns: 2fr 1fr 1fr 1fr;
+    gap: 40px;
+    padding: 50px 0;
+}
+
+.footer-widget:first-child {
+    padding-right: 78px;
+}
+
+.footer-brand {
+    display: block;
+    margin-bottom: 16px;
+}
+
+.widget-nav {
+    display: flex;
+    flex-direction: column;
+}
+
+.widget-nav li:not(:last-child) {
+    margin-bottom: 32px;
+}
+
+.widget-nav li a {
+    display: block;
+    color: var(--gray-500);
+}
+
+.widget-nav li a:hover {
+    color: var(--primary-color);
+}
+
+.widget-social {
+    display: flex;
+    align-items: center;
+    justify-content: end;
+    gap: 24px;
 }
